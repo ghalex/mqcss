@@ -26,7 +26,7 @@ Play with it [here](https://www.webpackbin.com/bins/-KocYWcF9u3vyfYcKUcr)
 ```javascript
 import React from 'react'
 import styled from 'styled-components'
-import jss from 'jss
+import jss from 'jss'
 import { onMobile, onTablet } from 'mqcss'
 
 // styled-components
