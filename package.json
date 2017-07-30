@@ -1,0 +1,41 @@
+{
+  "name": "mqcss",
+  "version": "1.0.1",
+  "description": "media query helper",
+  "main": "index.js",
+  "scripts": {
+    "del": "del",
+    "clean": "yarn run del dist",
+    "prebuild": "yarn run clean",
+    "build": "babel src -d dist",
+    "prepare": "yarn run build"
+  },
+  "files": [
+    "dist",
+    "mq.js",
+    "index.js"
+  ],
+  "keywords": [
+    "styled-components",
+    "media-queries",
+    "jss",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghalex/mqcss"
+  },
+  "author": "Ghiura Alexandru",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "del-cli": "^1.1.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
