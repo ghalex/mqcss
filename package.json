@@ -1,6 +1,6 @@
 {
   "name": "mqcss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "media query helper",
   "main": "index.js",
   "scripts": {

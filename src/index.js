@@ -1,10 +1,10 @@
 export const breakpoints = {
-  TABLET: '769px',
+  TABLET: '767px',
   DESKTOP: '1007px',
   WIDE: '1200px'
 }
 
-let { MOBILE, TABLET, DESKTOP, WIDE } = breakpoints
+let { TABLET, DESKTOP, WIDE } = breakpoints
 
 export const mq = ({from, to}) => {
   if (!from) {
